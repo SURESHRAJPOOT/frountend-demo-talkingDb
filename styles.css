@@ -1,0 +1,122 @@
+.box {
+    width: 355px;
+    height: 255px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .download-icon {
+    font-size: 24px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .upload-section {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .upload-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .upload-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .upload-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+  }
+  
+  .upload-text {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  .download-section {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iframe-container {
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .download-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+  }
+  
+  .process-button {
+    padding: 15px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .process-button:hover {
+    background-color: #45a049;
+  }
+  .download-text {
+    margin-top: 5px;
+  }
+  .download-section {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .download-icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .download-icon {
+    font-size: 24px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .download-text {
+    margin-top: 5px;
+    font-size: 12px;
+  }
